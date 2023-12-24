@@ -1,3 +1,6 @@
+
+![Captura de tela 2023-12-21 235648](https://github.com/JulioDEVReis/BOT_frases_BD/assets/142347463/a94edaa3-0361-4ca9-a4d6-ef65fae6c390)
+
 Recebi uma demanda para um aplicativo mobile, para eu colocar frases aleatórias ao usuário a cada inicialização do aplicativo.
 Ao fazer uma consulta por APIs, não encontrei nenhuma API que me desse o conteúdo que eu desejava, em Português.
 Uma API me interessou bastante, e ao verificar com a cliente, satisfazia suas necessidades no aplicativo mobile. Trata-se da API Forismatic (https://forismatic.com/en/), que entrega aleatoriamente frases em Inglês.
@@ -7,6 +10,8 @@ As frases em inglês e português são então salvas em um Banco de Dados SQL, o
 Para contonar situações de erros nas obtenções de dados das APIs e gravação e leitura do Banco de Dados, usei vários loops e Try/Except para evitar as exceções e interrupção do aplicativo.
 Um loop WHILE faz com que o aplicativo rode até atingir o limite de traduções, armazenando até 450.000 caracteres traduzidos no banco de dados.
 Colocada várias instruções print para DEBUG e acompanhar o processo etapa por etapa.
+
+![Captura de tela 2023-12-21 233439](https://github.com/JulioDEVReis/BOT_frases_BD/assets/142347463/a65fef7c-8a2c-49de-8ef6-450334413afe)
 
 Passo a Passo a execução básica do Aplicativo:
 1. Obter a frase aleatória da API Forismatic
